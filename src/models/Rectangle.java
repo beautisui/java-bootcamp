@@ -1,6 +1,6 @@
 package models;
 
-public class Rectangle {
+public class Rectangle implements Shapes{
     private final int length;
     private final int width;
 
