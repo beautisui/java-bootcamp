@@ -1,7 +1,9 @@
 import models.Calculator;
+import models.Rectangle;
 
 public class Main {
     public static void main(String[] args) {
-        Calculator calculator = new Calculator();
+        Rectangle rectangle = new Rectangle(1,1);
     }
+
 }
