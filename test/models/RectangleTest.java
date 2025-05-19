@@ -18,6 +18,12 @@ class RectangleTest {
         int actual = rectangle.area();
         assertEquals(0, actual);
     }
+    @Test
+    void areaWithZeroLength() {
+        Rectangle rectangle = new Rectangle(0, 5);
+        int actual = rectangle.area();
+        assertEquals(0, actual);
+    }
 
     @Test
     void perimeter() {

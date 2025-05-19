@@ -18,4 +18,5 @@ class SquareTest {
         int actual = square.perimeter();
         assertEquals(12,actual);
     }
+
 }
