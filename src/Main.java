@@ -1,12 +1,8 @@
-import models.Probability;
-import models.Rectangle;
-import models.Square;
+import models.CompareMeasurements;
 
 public class Main {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(1,1);
-        Square square = new Square(4);
-//        Probability coinFlip = new Probability();
+//        CompareMeasurements compare = new CompareMeasurements(1,12);
     }
 
 }
